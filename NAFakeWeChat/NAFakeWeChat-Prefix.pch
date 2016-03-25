@@ -1,0 +1,36 @@
+//
+//  NAFakeWeChat-Prefix.pch
+//  NAFakeWeChat
+//
+//  Created by zuopengl on 3/17/16.
+//  Copyright © 2016 Apple. All rights reserved.
+//
+
+#ifndef NAFakeWeChat_Prefix_pch
+#define NAFakeWeChat_Prefix_pch
+
+// Include any system framework and library headers here that should be included in all compilation units.
+// You will also need to set the Prefix Header build setting of one or more of your targets to reference this file.
+
+// pod headers
+#import "NAMacros.h"
+
+
+// Models
+#import "NAListItemModel.h"
+
+
+// Constants
+#import "NAIdentifierConstants.h"
+
+
+// categories
+#import "UIViewController+UINib.h"
+#import "UIImageView+NAAdaptedImage.h"
+
+
+// viewcontrollers
+#import "NABaseTableViewController.h"
+
+
+#endif /* NAFakeWeChat_Prefix_pch */

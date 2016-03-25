@@ -1,0 +1,15 @@
+workspace '../NAFakeWeChat'
+xcodeproj '../NAFakeWeChat.xcodeproj'
+
+# Uncomment this line to define a global platform for your project
+platform :ios, '7.0'
+# Uncomment this line if you're using Swift
+# use_frameworks!
+
+target 'NAFakeWeChat' do
+
+pod 'AFNetworking', '~> 2.6'
+pod 'SDWebImage', '~>3.7'
+
+end
+
